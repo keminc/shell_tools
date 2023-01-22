@@ -1,0 +1,3 @@
+#host	port	descript
+ya.ru	80	my_host
+
