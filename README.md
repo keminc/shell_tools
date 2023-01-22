@@ -1,2 +1,3 @@
 # shell_tools
-Administrative tools
+Administrative tools for linux
+
