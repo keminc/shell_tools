@@ -1,0 +1,21 @@
+[ req ]
+default_bits       = 2048
+distinguished_name = req_distinguished_name
+req_extensions     = req_ext
+prompt             = no
+		  
+[ req_distinguished_name ]
+C  = RU
+L  = Moscow
+ST = Moscow
+O  = SomeOrg
+OU = ProjectCode
+CN = MyProjectName
+		 
+[ req_ext ]
+subjectAltName = @alt_names
+extendedKeyUsage = serverAuth,clientAuth
+		  
+[alt_names]
+DNS.1 = myhost1.com
+DNS.2 = myhost2.com
