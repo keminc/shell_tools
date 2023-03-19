@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-# 1 - ip
-# 2 - passw0rd
+# Run: ssh_check.sh ip password
 #
+
 export LANG=C;
-TMP_FILE="tmp/rsa_host_test_$$.txt";
+TMP_FILE="/tmp/rsa_host_test_$$.txt";
 RESLT=1;
 #WTOUT=30;
 #let "WTT = $WTOUT * 2";
